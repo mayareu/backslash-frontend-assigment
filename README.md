@@ -58,13 +58,13 @@ flow 1\n1,2\n2,6\n flow 2
 2. Clone the repo from Github.
   
 ```
-git clone https://github.com/mayareu/backslash-home-assigment.git
+git clone https://github.com/mayareu/backslash-frontend-assigment.git
 ```
   
 3. Navigate to the root directory and install dependencies through npm.
   
 ```
-cd backslash
+cd backslash-frontend-assigment
 npm install
 ```
   
