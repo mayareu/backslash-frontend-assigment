@@ -1,0 +1,25 @@
+@import '../../../styles.scss';
+
+.side-bar-container {
+  width: 250px;
+  background: rgba($secondary-background, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100%;
+}
+
+.flow-selector {
+  padding: 60px 0;
+  width: 100%;
+}
+
+.task-name {
+  font-size: 12px;
+  color: #ccc;
+  font-family: 'system-ui';
+  font-weight: 200;
+  position: absolute;
+  bottom: 20px;
+}

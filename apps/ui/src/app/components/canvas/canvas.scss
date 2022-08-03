@@ -1,0 +1,50 @@
+.canvas {
+  display: block;
+  height: 100%;
+  width: calc(100% - 250px);
+  position: relative;
+}
+
+.toggle-switch {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  flex-direction: column;
+  row-gap: 16px;
+  width: 250px;
+}
+
+.toggle-label {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 20px;
+  left: 0;
+  font-size: 11px;
+  color: #ccc;
+  font-family: 'system-ui';
+  font-variant: all-petite-caps;
+}
+
+.flow-title {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  font-size: 15px;
+  color: #14ebb8;
+  font-family: 'system-ui';
+  font-variant: diagonal-fractions;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 6px;
+  width: 100%;
+
+  .content {
+    font-size: 28px;
+    color: #ccc;
+  }
+}

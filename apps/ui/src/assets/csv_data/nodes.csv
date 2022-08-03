@@ -1,0 +1,7 @@
+id,label,type
+1,Amazon API Gataway,Input
+2,AWS Lambda Get Products,
+3,AWS Lambda Get Product,
+4,AWS Lambda Put Product,
+5,AWS Lambda Delete Product,
+6,Amazon DynamoDB Products Table,output

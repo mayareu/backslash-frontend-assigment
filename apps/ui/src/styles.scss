@@ -1,1 +1,79 @@
-/* You can add global styles to this file, and also import other style files */
+$primary-color: #00ffc2;
+$primary-background: #111213;
+$secondary-background: #212429;
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: $primary-background;
+  background-image: radial-gradient(#fafafa29 5%, transparent 0%),
+    radial-gradient(#fafafa29 1%, transparent 0);
+  background-size: 18px 18px;
+  height: 100%;
+  margin: 0;
+
+  #root {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.react-flow__node {
+  background: rgba($secondary-background, 0.9);
+  box-shadow: 0px 2px 2px 0px rgb(2 9 21 / 0%);
+  border: none;
+  border-radius: 4px;
+  color: #b4b4b4;
+  font-size: 8px;
+  font-family: system-ui;
+  border: 1px solid rgba(46, 154, 157, 0.0509803922);
+  padding: 10px;
+  text-align: center;
+  width: 100px;
+  font-variant-caps: unicase;
+}
+
+.react-flow__attribution {
+  display: none;
+}
+
+.react-flow__handle {
+  background: rgba($primary-color, 0.76) !important;
+  border: none;
+  height: 4px;
+  width: 4px;
+}
+
+.react-flow__edge-path {
+  stroke: rgba($primary-color, 0.8);
+  stroke-width: 0.5;
+}
+
+.react-flow__controls {
+  bottom: 20px;
+  right: 15px;
+  left: auto !important;
+}
+
+.react-flow__controls-button {
+  align-items: center;
+  background: rgba($secondary-background, 0.6);
+  border-bottom: none !important;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  transition: all 0.1s ease-in-out;
+}
+
+.react-flow__controls-button svg {
+  path {
+    fill: #ffffffb3;
+  }
+}
+.react-flow__controls-button:hover {
+  background: rgb(44 46 52);
+}
